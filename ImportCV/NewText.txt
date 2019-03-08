@@ -1,0 +1,51 @@
+{"firstName":"Petro","lastName":"Sidorenko","dateOfBirth":"1986-05-16","city":"Chernivtsi","address":"Ukrainska 15","mobileNumber":"0501234567","eMail":"Sidorenko.P@gmail.com","mapOfLanguageSkill":{"ENGLISH":"B1","FRENCH":"A1","GERMAN":"C1"},"educations":[{"start":"1992-09-01","end":"2003-06-01","place":"School 1"},{"start":"2003-09-01","end":"2008-07-01","place":"CHNU"}],"jobs":[{"start":"2008-07-01","end":"2019-05-31","place":"Shop"},{"start":"2019-06-01","end":"2025-07-01","place":"Inter"}]}
+firstName:Oleksandr
+lastName:Chornevych
+dateOfBirth:1986-09-28
+city:Chernivtsy
+address:Pivdenno-Kiltseva,10B,220
+mobileNumber:0502743513
+eMail:Chornevich.A@gmail.com
+languageSkills:
+language:ENGLISH
+level:B1
+language:FRENCH
+level:A1
+language:GERMAN
+level:C1
+educations:
+start:1992-09-01
+end:2003-07-01
+place:School 22	
+start:2003-09-01
+end:2008-06-20
+place:CHNU
+jobs:
+start:2008-08-01
+end:2019-06-20
+place:CHNU accountancy
+start:2019-07-01
+end:2025-01-01
+place:SoftServe
+<Person xmlns=""><firstName>Petro</firstName><lastName>Sidorenko</lastName><dateOfBirth>1986-05-16</dateOfBirth><city>Chernivtsi</city><address>Ukrainska 15</address><mobileNumber>0501234567</mobileNumber><eMail>Sidorenko.P@gmail.com</eMail><mapOfLanguageSkill><ENGLISH>B1</ENGLISH><FRENCH>A1</FRENCH><GERMAN>C1</GERMAN></mapOfLanguageSkill><educations><educations><start>1992-09-01</start><end>2003-06-01</end><place>School 1</place></educations><educations><start>2003-09-01</start><end>2008-07-01</end><place>CHNU</place></educations></educations><jobs><jobs><start>2008-07-01</start><end>2019-05-31</end><place>Shop</place></jobs><jobs><start>2019-06-01</start><end>2025-07-01</end><place>Inter</place></jobs></jobs></Person>
+firstName:Stepan
+lastName:Semenko
+dateOfBirth:1990-01-10
+city:Chernivtsy
+address:Sitnika,1,28
+mobileNumber:0507899963
+eMail:Stepan@gmail.com
+languageSkills:
+language:ENGLISH
+level:B1
+educations:
+start:1992-09-01
+end:2003-07-01
+place:School 22	
+start:2003-09-01
+end:2008-06-20
+place:CHNU
+jobs:
+start:2008-08-01
+end:2019-06-20
+place:Langate
