@@ -9,6 +9,7 @@ import chornevich.javaweb.task1.service.LocalDateDeserializer;
 import chornevich.javaweb.task1.service.LocalDateSerializer;
 
 public class Experience {
+	private String idPerson;
 	@JsonDeserialize(using = LocalDateDeserializer.class)
 	@JsonSerialize(using = LocalDateSerializer.class)
 	private LocalDate start;

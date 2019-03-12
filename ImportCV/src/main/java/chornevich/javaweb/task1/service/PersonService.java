@@ -170,8 +170,9 @@ public class PersonService {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			// Deserialize JSON file into Java object.
-
-			return mapper.readValue(line, Person.class);
+			Person person = new Person();
+			person = mapper.readValue(line, Person.class);
+			return person;
 
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -232,9 +233,10 @@ public class PersonService {
 	}
 
 	public Person importXML(String line) throws IOException {
-
+		Person person = new Person();
 		XmlMapper xmlMapper = new XmlMapper();
-		return xmlMapper.readValue(line, Person.class);
+		person = xmlMapper.readValue(line, Person.class); 
+		return person;
 
 	}
 

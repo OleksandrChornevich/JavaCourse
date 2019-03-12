@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.UUID;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -15,6 +16,8 @@ import chornevich.javaweb.task1.service.LocalDateDeserializer;
 import chornevich.javaweb.task1.service.LocalDateSerializer;
 
 public class Person {
+	
+	private int idPerson;
 	private String firstName;
 	private String lastName;
 	@JsonDeserialize(using = LocalDateDeserializer.class)
@@ -29,7 +32,7 @@ public class Person {
 	private List<Experience> jobs = new ArrayList<>();
 
 	public Person() {
-
+		this.idPerson = 0;
 	}
 
 	public Person(String firstName, String lastName, LocalDate dateOfBirth, String city, String address,
